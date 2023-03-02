@@ -20,20 +20,6 @@ function App() {
       <Form/>
       <Footer/>
       <div className="App">
-      <Typewriter
-  
-       onInit={(typewriter)=> {
-  
-       typewriter
-        
-       .typeString("Aravinds Shajan")
-         
-       .pauseFor(1000)
-       .deleteAll()
-       .typeString("Welcomes You")
-       .start();
-       }}
-       />
     </div>
       
     </div>
