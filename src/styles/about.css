@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;500&display=swap');
+.main1 {
+  background: #010006;
+}
+
+.about {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.about h2 {
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  font-size: 40px;
+  color: rgb(254, 251, 253);
+  font-family: 'Source Code Pro', serif;
+  font-weight: 500;
+}
+
+.about p {
+  word-spacing: 10px;
+  font-size: 20px;
+  margin-top: -15px;
+  color: rgb(255, 255, 255);
+  font-family: 'Source Code Pro', serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+span {
+  color: #f6edf4;
+  font-size: 30px;
+}
+
+.resume {
+  color: rgb(229, 15, 15);
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Source Code Pro', serif;
+
+}
+/* button hover effect */
+
+.b1 {
+  margin-top: 40px;
+  background: #1aab8a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  height: 50px;
+  font-size: 1.6em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 500ms ease all;
+  outline: none;
+}
+.b1:hover {
+  background: #fff;
+  color: #1aab8a;
+}
+.b1:before,
+.b1:after {
+  content: '';
+  position: absolute;
+  border-radius: 5px;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #1aab8a;
+  transition: 400ms ease all;
+}
+.b1:after {
+  right: inherit;
+  top: inherit;
+  border-radius: 5px;
+  left: 0;
+  bottom: 0;
+}
+.b1:hover:before,
+.b1:hover:after {
+  width: 100%;
+  border-radius: 5px;
+
+  transition: 800ms ease all;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: rgb(122, 53, 97); */
+  color: rgb(249, 246, 248);
+
+  font-size: larger;
+  margin-top: 25px;
+  padding: 15px;
+}
+.socials svg {
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.biopic {
+  height: 320px;
+  width: 370px;
+  border-radius: 5px;
+}
+
+/* hover -grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.2);
+  color: rgb(243, 241, 241);
+  background: #121212;
+}

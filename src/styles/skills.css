@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;500&display=swap');
+#skills{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+  color: aquamarine;
+  text-align: left;
+  margin-left: 150px;
+  font-size: 40px;
+  font-family: 'Source Code Pro', serif;
+
+  
+}
+
+ul{
+    color: rgb(246, 248, 247);
+  text-align: left;
+  margin-left: 150px;
+  font-size: 20px;
+  font-family: 'Source Code Pro', serif;
+  line-height: 50px;
+  word-spacing: 10px;
+  letter-spacing:5px;
+
+
+}
