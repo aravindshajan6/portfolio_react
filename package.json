@@ -1,7 +1,7 @@
 {
   "name": "personnel-portfolio",
   "version": "0.1.0",
-  "homepage":http://{aravindshajan6}.github.io/{portfolio_react},
+  "homepage":"http://aravindshajan6.github.io/portfolio_react",
   "private": true,
   "dependencies": {
     "@coreui/coreui": "^4.2.6",
